@@ -1,0 +1,40 @@
+#root{
+    width: 79rem;
+    height: Auto;
+    border-radius: 1rem;
+
+    margin: auto;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3AB4F2;
+}
+
+.fruta{
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+
+    background-color: #F6F6F6;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.fruta:hover{
+    transition: all 0.5s;
+    box-shadow:  0rem 0.5rem 0.5rem 0.3rem  #2020207a ;
+
+}
+
+.activar{
+    background-color: green;
+}
